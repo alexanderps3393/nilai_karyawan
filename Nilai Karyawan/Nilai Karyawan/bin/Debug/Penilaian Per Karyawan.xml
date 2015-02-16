@@ -1,0 +1,579 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Departemen">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_DEPARTEMEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_DEPARTEMEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Detil_Penilaian">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_PENILAIAN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KRITERIA" type="xs:string" minOccurs="0" />
+                <xs:element name="NILAI" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Golongan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_GOLONGAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_GOLONGAN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Karyawan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_DEPARTEMEN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GOLONGAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="JK_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="ALAMAT_KARYAWAN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Kriteria">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_KRITERIA" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_KRITERIA" type="xs:string" minOccurs="0" />
+                <xs:element name="KET_KRITERIA" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Manajer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NIP_MANAJER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_MANAJER" type="xs:string" minOccurs="0" />
+                <xs:element name="PASS_MANAJER" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Penilaian">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_PENILAIAN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_PERIODE" type="xs:string" minOccurs="0" />
+                <xs:element name="NIP_MANAJER" type="xs:string" minOccurs="0" />
+                <xs:element name="TGL_PENILAIAN" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="HASIL_PENILAIAN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Periode_Penilaian">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_PERIODE" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_PERIODE" type="xs:string" minOccurs="0" />
+                <xs:element name="TAHUN_PERIODE" type="xs:int" minOccurs="0" />
+                <xs:element name="KET_PERIODE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Range_Nilai">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_RANGE" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KRITERIA" type="xs:string" minOccurs="0" />
+                <xs:element name="KET_RANGE" type="xs:string" minOccurs="0" />
+                <xs:element name="NILAI_ATAS" type="xs:int" minOccurs="0" />
+                <xs:element name="NILAI_BAWAH" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Rekap_Kehadiran">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_REKAP" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_REKAP" type="xs:string" minOccurs="0" />
+                <xs:element name="TAHUN_REKAP" type="xs:int" minOccurs="0" />
+                <xs:element name="TGL_REKAP" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TERLAMBAT" type="xs:int" minOccurs="0" />
+                <xs:element name="ABSEN" type="xs:int" minOccurs="0" />
+                <xs:element name="SAKIT" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Departemen>
+    <ID_DEPARTEMEN>DM001</ID_DEPARTEMEN>
+    <NAMA_DEPARTEMEN>HRD</NAMA_DEPARTEMEN>
+  </Departemen>
+  <Departemen>
+    <ID_DEPARTEMEN>DM002</ID_DEPARTEMEN>
+    <NAMA_DEPARTEMEN>Finance</NAMA_DEPARTEMEN>
+  </Departemen>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR002</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR003</ID_KRITERIA>
+    <NILAI>65</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR004</ID_KRITERIA>
+    <NILAI>95</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR005</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR006</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR007</ID_KRITERIA>
+    <NILAI>75</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR008</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR009</ID_KRITERIA>
+    <NILAI>65</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR010</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR011</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR012</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KRITERIA>KR013</ID_KRITERIA>
+    <NILAI>75</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR002</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR003</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR004</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR005</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR006</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR007</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR008</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR009</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR010</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR011</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR012</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KRITERIA>KR013</ID_KRITERIA>
+    <NILAI>30</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR002</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR003</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR004</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR005</ID_KRITERIA>
+    <NILAI>95</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR006</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR007</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR008</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR009</ID_KRITERIA>
+    <NILAI>95</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR010</ID_KRITERIA>
+    <NILAI>75</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR011</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR012</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KRITERIA>KR013</ID_KRITERIA>
+    <NILAI>90</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR002</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR003</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR004</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR005</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR006</ID_KRITERIA>
+    <NILAI>65</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR007</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR008</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR009</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR010</ID_KRITERIA>
+    <NILAI>60</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR011</ID_KRITERIA>
+    <NILAI>70</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR012</ID_KRITERIA>
+    <NILAI>80</NILAI>
+  </Detil_Penilaian>
+  <Detil_Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KRITERIA>KR013</ID_KRITERIA>
+    <NILAI>85</NILAI>
+  </Detil_Penilaian>
+  <Golongan>
+    <ID_GOLONGAN>GOL01</ID_GOLONGAN>
+    <NAMA_GOLONGAN>HR Representative Jatim</NAMA_GOLONGAN>
+  </Golongan>
+  <Golongan>
+    <ID_GOLONGAN>GOL02</ID_GOLONGAN>
+    <NAMA_GOLONGAN>Accounting</NAMA_GOLONGAN>
+  </Golongan>
+  <Karyawan>
+    <ID_KARYAWAN>KAR00001</ID_KARYAWAN>
+    <ID_DEPARTEMEN>DM001</ID_DEPARTEMEN>
+    <ID_GOLONGAN>GOL01</ID_GOLONGAN>
+    <NAMA_KARYAWAN>Dwi Prasetyo</NAMA_KARYAWAN>
+    <JK_KARYAWAN>L</JK_KARYAWAN>
+    <ALAMAT_KARYAWAN>Ketintang, Surabaya</ALAMAT_KARYAWAN>
+  </Karyawan>
+  <Karyawan>
+    <ID_KARYAWAN>KAR00002</ID_KARYAWAN>
+    <ID_DEPARTEMEN>DM002</ID_DEPARTEMEN>
+    <ID_GOLONGAN>GOL02</ID_GOLONGAN>
+    <NAMA_KARYAWAN>Moh. Oby</NAMA_KARYAWAN>
+    <JK_KARYAWAN>L</JK_KARYAWAN>
+    <ALAMAT_KARYAWAN>Krian, Sidoarjo</ALAMAT_KARYAWAN>
+  </Karyawan>
+  <Karyawan>
+    <ID_KARYAWAN>KAR00003</ID_KARYAWAN>
+    <ID_DEPARTEMEN>DM001</ID_DEPARTEMEN>
+    <ID_GOLONGAN>GOL01</ID_GOLONGAN>
+    <NAMA_KARYAWAN>Thony Hermawan</NAMA_KARYAWAN>
+    <JK_KARYAWAN>L</JK_KARYAWAN>
+    <ALAMAT_KARYAWAN>Pasuruan</ALAMAT_KARYAWAN>
+  </Karyawan>
+  <Karyawan>
+    <ID_KARYAWAN>KAR00004</ID_KARYAWAN>
+    <ID_DEPARTEMEN>DM002</ID_DEPARTEMEN>
+    <ID_GOLONGAN>GOL02</ID_GOLONGAN>
+    <NAMA_KARYAWAN>Aditya</NAMA_KARYAWAN>
+    <JK_KARYAWAN>L</JK_KARYAWAN>
+    <ALAMAT_KARYAWAN>Surabaya</ALAMAT_KARYAWAN>
+  </Karyawan>
+  <Kriteria>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <NAMA_KRITERIA>Pengetahuan Jabatan</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai tingkat penguasaan pengetahuan jabatan dan keterampilan yang diperlukan sesuai standar kebut</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR002</ID_KRITERIA>
+    <NAMA_KRITERIA>Kualitas Kerja</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai derajat akurasi, ketuntasan, kelengkapan, kerapian, dan sistematika dalam pelaksanaan tugas</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR003</ID_KRITERIA>
+    <NAMA_KRITERIA>Kualitas Layanan</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai kemampuan untuk memberikan pelayanan berkualitas kepada pihak eksternal maupun internal</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR004</ID_KRITERIA>
+    <NAMA_KRITERIA>Kemandirian Karyawan</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai tingginya unsur supervisi yang masih diperlukan untuk karyawan bersangkutan dalam pelaksanaa</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR005</ID_KRITERIA>
+    <NAMA_KRITERIA>Kemampuan Pribadi</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai kemampuan mengambil inisiatif, usaha perbaikan cara kerja, problem solving, kreatif, proakti</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR006</ID_KRITERIA>
+    <NAMA_KRITERIA>Daya Analisa &amp; Logika</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai kemampuan untuk berfikir analitis, sistematis, objektif, logis</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR007</ID_KRITERIA>
+    <NAMA_KRITERIA>Kerjasama &amp; Komunikasi</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai tingkat kemampuan kerjasama dan komunikasi dengan rekan dan atasan dalam pelaksanaan tugas s</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR008</ID_KRITERIA>
+    <NAMA_KRITERIA>Kualitas Kerja</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai kuantitas tugas yang diselesaikan berdasarkan standar output/target yang ditetapkan untuk tu</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR009</ID_KRITERIA>
+    <NAMA_KRITERIA>Absensi &amp; Ketepatan Waktu</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai kuantitas kehadiran karyawan dari keterlambatan, absen, dan ijin karena sakit</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR010</ID_KRITERIA>
+    <NAMA_KRITERIA>Kemampuan Supervisi &amp; Kepemimpinan</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai tingkat kemampuan memimpin, memotivasi, mengarahkan dan mengembangkan bawahan, kemampuan men</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR011</ID_KRITERIA>
+    <NAMA_KRITERIA>Aspek Khusus</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai tingkat integritas, tanggung jawab, dan etika kerja</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR012</ID_KRITERIA>
+    <NAMA_KRITERIA>Perilaku &amp; Sikap Kerja</NAMA_KRITERIA>
+    <KET_KRITERIA>Menilai perilaku karyawan dalam menerima kerja yang diberikan perusahaan kepadanya</KET_KRITERIA>
+  </Kriteria>
+  <Kriteria>
+    <ID_KRITERIA>KR013</ID_KRITERIA>
+    <NAMA_KRITERIA>Problem Solving and Decision Making</NAMA_KRITERIA>
+    <KET_KRITERIA>Melihat kemampuan karyawan dalam menyikapi suatu permasalahan dan upaya yang dilakukan untuk menyele</KET_KRITERIA>
+  </Kriteria>
+  <Manajer>
+    <NIP_MANAJER>1234</NIP_MANAJER>
+    <NAMA_MANAJER>irfan</NAMA_MANAJER>
+    <PASS_MANAJER>1234</PASS_MANAJER>
+  </Manajer>
+  <Penilaian>
+    <ID_PENILAIAN>PEN0000001</ID_PENILAIAN>
+    <ID_KARYAWAN>KAR00001</ID_KARYAWAN>
+    <ID_PERIODE>PP001</ID_PERIODE>
+    <NIP_MANAJER>1234</NIP_MANAJER>
+    <TGL_PENILAIAN>2014-12-02T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>78.00</HASIL_PENILAIAN>
+  </Penilaian>
+  <Penilaian>
+    <ID_PENILAIAN>PEN0000002</ID_PENILAIAN>
+    <ID_KARYAWAN>KAR00002</ID_KARYAWAN>
+    <ID_PERIODE>PP001</ID_PERIODE>
+    <NIP_MANAJER>1234</NIP_MANAJER>
+    <TGL_PENILAIAN>2014-12-03T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>30.00</HASIL_PENILAIAN>
+  </Penilaian>
+  <Penilaian>
+    <ID_PENILAIAN>PEN0000004</ID_PENILAIAN>
+    <ID_KARYAWAN>KAR00004</ID_KARYAWAN>
+    <ID_PERIODE>PP002</ID_PERIODE>
+    <NIP_MANAJER>1234</NIP_MANAJER>
+    <TGL_PENILAIAN>2014-12-11T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>87.00</HASIL_PENILAIAN>
+  </Penilaian>
+  <Penilaian>
+    <ID_PENILAIAN>PEN0000005</ID_PENILAIAN>
+    <ID_KARYAWAN>KAR00003</ID_KARYAWAN>
+    <ID_PERIODE>PP002</ID_PERIODE>
+    <NIP_MANAJER>1234</NIP_MANAJER>
+    <TGL_PENILAIAN>2014-12-11T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>77.00</HASIL_PENILAIAN>
+  </Penilaian>
+  <Periode_Penilaian>
+    <ID_PERIODE>PP001</ID_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <TAHUN_PERIODE>2013</TAHUN_PERIODE>
+    <KET_PERIODE>Penilaian tahun 2013</KET_PERIODE>
+  </Periode_Penilaian>
+  <Periode_Penilaian>
+    <ID_PERIODE>PP002</ID_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <TAHUN_PERIODE>2014</TAHUN_PERIODE>
+    <KET_PERIODE />
+  </Periode_Penilaian>
+  <Range_Nilai>
+    <ID_RANGE>RN001</ID_RANGE>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <KET_RANGE>Sangat menguasai pengetahuan jabatan dan dapat pula menerapkan dengan sempurna. Dalam tugas sempurna dan dapat diandalkan.</KET_RANGE>
+    <NILAI_ATAS>100</NILAI_ATAS>
+    <NILAI_BAWAH>90</NILAI_BAWAH>
+  </Range_Nilai>
+  <Range_Nilai>
+    <ID_RANGE>RN002</ID_RANGE>
+    <ID_KRITERIA>KR001</ID_KRITERIA>
+    <KET_RANGE>Menguasai pengetahuan jabatan dengan baik sekali, kadang perlu diarahkan dalam aspek tugas yang kompleks atau rutin.</KET_RANGE>
+    <NILAI_ATAS>85</NILAI_ATAS>
+    <NILAI_BAWAH>75</NILAI_BAWAH>
+  </Range_Nilai>
+  <Rekap_Kehadiran>
+    <ID_REKAP>RK00001</ID_REKAP>
+    <ID_KARYAWAN>KAR00001</ID_KARYAWAN>
+    <NAMA_REKAP>Januari - November</NAMA_REKAP>
+    <TAHUN_REKAP>2014</TAHUN_REKAP>
+    <TGL_REKAP>2014-12-02T00:00:00+07:00</TGL_REKAP>
+    <TERLAMBAT>0</TERLAMBAT>
+    <ABSEN>2</ABSEN>
+    <SAKIT>5</SAKIT>
+  </Rekap_Kehadiran>
+  <Rekap_Kehadiran>
+    <ID_REKAP>RK00002</ID_REKAP>
+    <ID_KARYAWAN>KAR00002</ID_KARYAWAN>
+    <NAMA_REKAP>Januari - Oktober</NAMA_REKAP>
+    <TAHUN_REKAP>2013</TAHUN_REKAP>
+    <TGL_REKAP>2013-12-11T00:00:00+07:00</TGL_REKAP>
+    <TERLAMBAT>0</TERLAMBAT>
+    <ABSEN>0</ABSEN>
+    <SAKIT>3</SAKIT>
+  </Rekap_Kehadiran>
+  <Rekap_Kehadiran>
+    <ID_REKAP>RK00003</ID_REKAP>
+    <ID_KARYAWAN>KAR00003</ID_KARYAWAN>
+    <NAMA_REKAP>Januari - Oktober</NAMA_REKAP>
+    <TAHUN_REKAP>2013</TAHUN_REKAP>
+    <TGL_REKAP>2013-12-11T00:00:00+07:00</TGL_REKAP>
+    <TERLAMBAT>0</TERLAMBAT>
+    <ABSEN>0</ABSEN>
+    <SAKIT>2</SAKIT>
+  </Rekap_Kehadiran>
+</NewDataSet>

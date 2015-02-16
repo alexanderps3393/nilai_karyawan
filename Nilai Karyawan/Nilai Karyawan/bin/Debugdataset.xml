@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<dsPenilaian xmlns="http://tempuri.org/dsPenilaian.xsd">
+  <xs:schema id="dsPenilaian" targetNamespace="http://tempuri.org/dsPenilaian.xsd" xmlns:mstns="http://tempuri.org/dsPenilaian.xsd" xmlns="http://tempuri.org/dsPenilaian.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="dsPenilaian" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_penilaian" type="xs:string" minOccurs="0" />
+                <xs:element name="tahun_periode" type="xs:int" minOccurs="0" />
+                <xs:element name="nama_karyawan" type="xs:string" minOccurs="0" />
+                <xs:element name="tgl_penilaian" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="hasil_penilaian" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_penilaian>PEN0000001</id_penilaian>
+    <tahun_periode>2013</tahun_periode>
+    <nama_karyawan>Dwi Prasetyo</nama_karyawan>
+    <tgl_penilaian>2014-12-02T00:00:00+07:00</tgl_penilaian>
+    <hasil_penilaian>100.00</hasil_penilaian>
+  </Table>
+  <Table>
+    <id_penilaian>PEN0000002</id_penilaian>
+    <tahun_periode>2013</tahun_periode>
+    <nama_karyawan>Moh. Oby</nama_karyawan>
+    <tgl_penilaian>2014-12-03T00:00:00+07:00</tgl_penilaian>
+    <hasil_penilaian>30.00</hasil_penilaian>
+  </Table>
+</dsPenilaian>

@@ -1,0 +1,34 @@
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\bin\Debug\Nilai Karyawan.exe
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\bin\Debug\Nilai Karyawan.pdb
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\bin\Debug\Nilai Karyawan.xml
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.Form1.resources
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.Resources.resources
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.vbproj.GenerateResource.Cache
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.exe
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.xml
+c:\users\thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.pdb
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormUtama.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormDashboard.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormKaryawan.resources
+C:\Users\Thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormRekapKehadiran.resources
+C:\Users\Thony\documents\visual studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormKriteria.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormRangeNilai.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormPeriodePenilaian.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.DialogCariKaryawan.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormDepartemen.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormGolongan.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormPrePenilaian.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.DialogCariPeriode.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.DialogDetil.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.DialogProsesPerhitungan.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormPengguna.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.vbprojResolveAssemblyReference.cache
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\bin\Debug\Nilai Karyawan.exe.config
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormLaporan1.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormFilter1.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormFilter2.resources
+C:\Users\Thony\Documents\Visual Studio 2010\Projects\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai_Karyawan.FormLaporan2.resources
+D:\Mandiri Development\Kerjaan\KP_IRFAN\Final\Nilai Karyawan\Nilai Karyawan\bin\Debug\Nilai Karyawan.exe.config
+D:\Mandiri Development\Kerjaan\KP_IRFAN\Final\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.exe
+D:\Mandiri Development\Kerjaan\KP_IRFAN\Final\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.xml
+D:\Mandiri Development\Kerjaan\KP_IRFAN\Final\Nilai Karyawan\Nilai Karyawan\obj\x86\Debug\Nilai Karyawan.pdb

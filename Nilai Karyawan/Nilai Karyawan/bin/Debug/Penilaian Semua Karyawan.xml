@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAHUN_PERIODE" type="xs:int" minOccurs="0" />
+                <xs:element name="NAMA_PERIODE" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_KARYAWAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_GOLONGAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_DEPARTEMEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMA_MANAJER" type="xs:string" minOccurs="0" />
+                <xs:element name="TGL_PENILAIAN" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="HASIL_PENILAIAN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <TAHUN_PERIODE>2013</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Dwi Prasetyo</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>HR Representative Jatim</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>HRD</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-02T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>78.00</HASIL_PENILAIAN>
+  </Table>
+  <Table>
+    <TAHUN_PERIODE>2013</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Moh. Oby</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>Accounting</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>Finance</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-03T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>30.00</HASIL_PENILAIAN>
+  </Table>
+  <Table>
+    <TAHUN_PERIODE>2014</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Thony Hermawan</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>HR Representative Jatim</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>HRD</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-11T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>77.00</HASIL_PENILAIAN>
+  </Table>
+  <Table>
+    <TAHUN_PERIODE>2014</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Fabio Fabiola</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>HR Representative Jatim</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>HRD</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-12T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>82.00</HASIL_PENILAIAN>
+  </Table>
+  <Table>
+    <TAHUN_PERIODE>2014</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Irpan</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>HR Representative Jatim</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>HRD</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-12T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>36.00</HASIL_PENILAIAN>
+  </Table>
+  <Table>
+    <TAHUN_PERIODE>2014</TAHUN_PERIODE>
+    <NAMA_PERIODE>Januari - November</NAMA_PERIODE>
+    <NAMA_KARYAWAN>Aditya</NAMA_KARYAWAN>
+    <NAMA_GOLONGAN>Accounting</NAMA_GOLONGAN>
+    <NAMA_DEPARTEMEN>Finance</NAMA_DEPARTEMEN>
+    <NAMA_MANAJER>Irfan Zuhdi</NAMA_MANAJER>
+    <TGL_PENILAIAN>2014-12-11T00:00:00+07:00</TGL_PENILAIAN>
+    <HASIL_PENILAIAN>87.00</HASIL_PENILAIAN>
+  </Table>
+</NewDataSet>
